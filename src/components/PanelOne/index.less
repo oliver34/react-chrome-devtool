@@ -1,0 +1,42 @@
+.tools-view {
+  height: 100%;
+  .tools-wrapper {
+    padding: 10px 20px;
+    .link {
+      font-size: 16px;
+    }
+  }
+  .tools-card-list {
+    display: flex;
+    flex-wrap: wrap;
+    .tools-card {
+      width: calc(50% - 5px);
+      margin: 5px;
+      background-color: #f9f9f9;
+      .form-input, .form-select {
+        width: 200px;
+      }
+      .ant-btn + .ant-btn {
+        margin-left: 10px;
+      }
+    }
+  }
+  .respository-item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    .respository-title {
+      flex: 0 0 100px;
+      display: flex;
+      align-items: center;
+      img {
+        width: 18px;
+        margin-right: 2px;
+      }
+    }
+    > div {
+      flex: 1;
+    }
+  }
+}

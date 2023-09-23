@@ -1,0 +1,125 @@
+.popup-wrapper {
+  min-width: 410px;
+  padding: 10px 15px;
+  min-height: 500px;
+  .popup-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .ant-spin-nested-loading {
+    display: inline-block;
+  }
+}
+
+.search {
+  height: 30px;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+.search input {
+  vertical-align: middle;
+  height: 20px;
+  line-height: 20px;
+  margin: 0 10px 0 0;
+  padding: 0 10px;
+}
+.search button {
+  height: 23px;
+  line-height: 23px;
+  vertical-align: middle;
+  background-color: #ff6a00;
+  color: #fff;
+  border-radius: 3px;
+  border-width: 0;
+}
+.view {
+  overflow: hidden;
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+}
+.menu {
+  float: left;
+  overflow: hidden;
+  padding-left: 20px;
+  margin-bottom: 15px;
+}
+.menu-list {
+  padding-top: 25px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 45px;
+  margin-bottom: 10px;
+  width: 85px;
+}
+.item-title {
+  padding-top: 8px;
+  margin-bottom: 7px;
+}
+.item {
+  margin-bottom: 5px;
+  padding: 5px 10px;
+  border: 1px solid #999;
+  height: 15px;
+  line-height: 15px;
+  border-radius: 3px;
+  text-align: center;
+  display: inline-block;
+  width: 60px;
+}
+.item a {
+  text-decoration: none;
+  color: #333;
+}
+.item-building {
+  background-color: #efefef;
+}
+.newitem {
+  background-color: #c6f5c4;
+  border: none;
+}
+.newitem:hover {
+  background-color: #8af187;
+}
+.qrcode {
+  float: left;
+}
+.sel-q-item {
+  color: #333;
+  cursor: pointer;
+}
+.q-item {
+  color: #999;
+  cursor: pointer;
+}
+.tab {
+  margin-bottom: 10px;
+}
+
+.map-container {
+  .ant-btn {
+    margin: 0 5px 5px 0;
+  }
+  .map-title {
+    margin-bottom: 5px;
+  }
+  .ant-divider-horizontal {
+    margin: 10px 0;
+  }
+}
+
+h4.title {
+  position: relative;
+  margin: 10px 0;
+  padding-left: 10px;
+  &::after {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    content: '';
+    height: 18px;
+    /* width: 50px; */
+    border-left: 2px #52c41a solid;
+    border-radius: 1px;
+    transform: translateY(-50%);
+  }
+}

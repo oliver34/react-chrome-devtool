@@ -1,0 +1,55 @@
+.uaual-js-tag {
+  margin-bottom: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  .js-icon {
+    display: inline-block;
+    height: 15px;
+    margin: 2px 5px 2px 0;
+  }
+}
+.injected-js-list {
+  max-height: 145px;
+  margin-bottom: 0;
+  padding: 0;
+  overflow: auto;
+  .injected-js-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style: none;
+    .injected-js-info {
+      width: 80%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      > p {
+        margin: 0;
+      }
+      small {
+        a {
+          color: #aaa;
+        }
+      }
+    }
+    .ant-btn {
+      margin-left: 10px;
+    }
+    .ant-divider-horizontal {
+      margin: 10px 0;
+    }
+  }
+}
+
+.inject-form {
+  margin-bottom: 5px;
+  &.ant-form-inline {
+    .ant-form-item {
+      margin-bottom: 5px;
+      margin-right: 0;
+      & + .ant-form-item {
+        margin-left: 10px;
+      }
+    }
+  }
+}
